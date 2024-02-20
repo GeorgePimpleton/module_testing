@@ -16,6 +16,6 @@ You should think about using VS 2022 as well.  It's free for the Community editi
 ### Notes
 There may be links to websites or internet sources in these pages and source code. Links can go stale. A search engine is your friend.
 
-This is a "work in progress", there is no guarantee this will be nothing more than a repo dump of test snippets.  There is also no guarantee the source files will work for you.
+This is a "work in progress", there is no guarantee this will be nothing more than a repo dump of test snippets.  There is also no guarantee the source files will work for you.  Especially if you don't use Visual Studio as your compiler.  At this time only VS is 100% compliant for C++20.  No compiler is complete C++23 compliant.
 
 If you find better ways to rework the code don't hesitate to let me know.
