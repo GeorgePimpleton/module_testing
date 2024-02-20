@@ -13,6 +13,9 @@ You should think about using VS 2022 as well.  It's free for the Community editi
 
 [Visual Studio 2022 Community download](https://visualstudio.microsoft.com/vs/community/)
 
+### Layout of test examples
+Each test has 3 code examples, 1st is pre-C++20 code, 2nd is C++20 code and the 3rd is C++23 code.  The examples will progress into more complex usages of module consumption.
+
 ### Notes
 There may be links to websites or internet sources in these pages and source code. Links can go stale. A search engine is your friend.
 
