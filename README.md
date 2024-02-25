@@ -4,17 +4,19 @@
 C/C++ have changed since 2003/2004.  C++20 introduced a new method for creating custom content, via module interface files instead of headers, etc.  Programmers need to adapt.
 
 ### Why this github repository exists
-Because using modules can be fraught with frusttration if not properly set up.
+Because using modules can be fraught with frusttration if not properly set up.  Header use and the potential drawbacks have been known for years.  Modules were created to remove the problems with headers, though creating other problems if not properly used.
 
 ### Compiler used
-I used Visual Studio 2022 (Community) to create and test the code.  Currently I am using VS 2022, setting the C++ language standard to /std:c++latest (C++23 features).
+I use Visual Studio 2022 (Community) to create and test the code, setting the C++ language standard to /std:c++latest (C++23 features).  This works even for pre-C++20 code.
 
 You should think about using VS 2022 as well.  It's free for the Community edition.
 
 [Visual Studio 2022 Community download](https://visualstudio.microsoft.com/vs/community/)
 
 ### Layout of test examples
-Each test has 3 code examples, 1st is pre-C++20 code, 2nd is C++20 code and the 3rd is C++23 code.  The examples will progress into more complex usages of module consumption.
+Each test has 3 code examples, 1st is pre-C++20 code, 2nd is C++20 code and the 3rd is C++23 code.  The examples will progress into more complex usages of header use/module consumption to make understanding module use less painful.
+
+I learned the hard way the way modules need to be set up and used.  That doesn't mean I know all there is to know about modules.
 
 ### Notes
 There may be links to websites or internet sources in these pages and source code. Links can go stale. A search engine is your friend.
