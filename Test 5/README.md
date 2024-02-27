@@ -9,3 +9,6 @@ C++20/C++23 have formatting library support, this is just a very brief overview.
 FYI, the pre-C++20 example uses the C library ::printf.  Using std::cout also works with I/O manipulators <iomanip>.
 
 Using <iomanip> is a "study on your own" subject, thankyouverymuch.
+
+### Hint
+I have an ulterior motive for this testing example that will show up in later examples.
