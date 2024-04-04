@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+desktop.ini
 
 # User-specific archive files
 *.rar
