@@ -6,4 +6,4 @@ C/C++ have changed since 2003/2004.  C++20 introduced a new method for creating 
 ### What this does
 The custom function is placed in a header/module interface file.
 
-FYI, the file extension I use for a C++ header is .hpp, for a C++ module interface is .cppm.
+FYI, the file extension I use for a C++ header is .hpp, for a C++ module interface is .ixx.  .ixx is used by Visual Studio, .cppm by Clang and .cxx by GCC (kinda).
