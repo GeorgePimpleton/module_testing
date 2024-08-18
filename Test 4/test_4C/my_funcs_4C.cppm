@@ -1,3 +1,8 @@
-export module my_funcs;
+module my_funcs;
 
-export void my_func( );
+import std;
+
+export void my_func( )
+{
+   std::cout << "Called my_func\n";
+}

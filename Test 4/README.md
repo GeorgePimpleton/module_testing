@@ -6,4 +6,4 @@ C/C++ have changed since 2003/2004.  C++20 introduced a new method for creating 
 ### What this does
 The custom function is placed in separate interface and implementation files.
 
-FYI, a C++ module implementation file with a .cpp is classified in MSVC as a module internal partition file.
+FYI, a C++ module implementation file with a .cpp is classified in MSVC as a module internal partition file and has to be manually adjusted in the VS IDE.  That is why I now use the .cppm file extension to designate a module internal partition file.
