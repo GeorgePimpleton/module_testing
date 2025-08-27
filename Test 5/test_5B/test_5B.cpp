@@ -1,13 +1,14 @@
-// test_5B.cpp : formatting output
+import my_stuff;
 
-import <iostream>;
-import <format>;
+// no need to import stdlib modules already referenced in the module interface
 
 int main( )
 {
-   std::cout << "Hello World!\n";
+   my_func( );
 
-   int answer { 42 };
+   std::cout << test << '\n';
 
-   std::cout << std::format( "The answer to life, the universe, and everything is {}\n", answer );
+   std::string str { "Test String" };
+
+   std::cout << str << '\n';
 }

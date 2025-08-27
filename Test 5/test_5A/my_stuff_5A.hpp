@@ -1,5 +1,5 @@
-#ifndef MY_STUFF_6A_HPP
-#define MY_STUFF_6A_HPP
+#ifndef MY_STUFF_5A_HPP
+#define MY_STUFF_5A_HPP
 
 #include <iostream>
 #include <string>

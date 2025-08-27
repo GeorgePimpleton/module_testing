@@ -1,12 +1,14 @@
-// test_5C.cpp : formatting output
+import my_stuff;
 
-import std;
+// even with C++23 no need to import exported stdlib modules
 
 int main( )
 {
-   std::print( "Hello World!\n" );
+   my_func( );
 
-   int answer { 42 };
+   std::cout << test << '\n';
 
-   std::println( "The answer to life, the universe, and everything is {}", answer );
+   std::string str { "Test String" };
+
+   std::cout << str << '\n';
 }

@@ -1,15 +1,13 @@
-import my_stuff;
+// test_6B.cpp : formatting output
 
-import <iostream>;  // imports are NOT #includes!!!!
-import <string>;    // apparently not actually needed to use stdlib strings
+import <iostream>;
+import <format>;
 
 int main( )
 {
-   my_func( );
+   std::cout << "Hello World!\n";
 
-   std::cout << test << '\n';
+   int answer { 42 };
 
-   std::string str { "Test String" };
-
-   std::cout << str << '\n';
+   std::cout << std::format( "The answer to life, the universe, and everything is {}\n", answer );
 }

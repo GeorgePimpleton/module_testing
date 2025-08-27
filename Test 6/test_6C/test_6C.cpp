@@ -1,14 +1,15 @@
-import my_stuff;
+// test_6C.cpp : formatting output
 
 import std;
 
 int main( )
 {
-   my_func( );
+   std::print( "Hello World!\n" );
 
-   std::cout << test << '\n';
+   // could have used std::println without the escaped new line character
+   // std::println( "Hello World!" );
 
-   std::string str { "Test String" };
+   int answer { 42 };
 
-   std::cout << str << '\n';
+   std::println( "The answer to life, the universe, and everything is {}", answer );
 }

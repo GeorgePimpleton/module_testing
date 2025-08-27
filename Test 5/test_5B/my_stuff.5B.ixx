@@ -1,6 +1,8 @@
 export module my_stuff;
 
-import std;
+// export the import stdlib modules
+export import <iostream>;
+export import <string>;
 
 export void my_func( )
 {

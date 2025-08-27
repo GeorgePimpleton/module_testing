@@ -1,16 +1,12 @@
-// test_6A.cpp : using a header file for custom functionality
+// test_6A.cpp : formatting output using the C library
 
-// the <iostream> and <string> headers are implicitly chained in
-// with this #include
-#include "my_stuff_6A.hpp"
+#include <cstdio>  // for printf
 
 int main( )
 {
-   my_func( );
+   ::printf( "Hello World!\n" );
 
-   std::cout << test << '\n';
+   int i = 42;
 
-   std::string str { "Test String" };
-
-   std::cout << str << '\n';
+   ::printf( "The answer to life, the universe, and everything is %i\n", i );
 }
